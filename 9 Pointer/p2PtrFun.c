@@ -8,8 +8,7 @@ int main(){
     printf("Enter a number: ");
     scanf("%d", &n);
     printf("The Value of n is %d\n", n);
-    fun(&n);  //passing by reference  
+    fun(&n);  //passing by reference
     printf("The Value of n is %d\n", n);
     return 0;
-
 }
