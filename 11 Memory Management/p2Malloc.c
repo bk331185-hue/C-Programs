@@ -23,7 +23,6 @@ int main(){
         int *temp = realloc(arr, 10 * sizeof(int));
         if (temp == NULL) {
             printf("Reallocation failed!\n");
-            free(arr);
             return 1;
         }
         arr = temp;
